@@ -1,0 +1,122 @@
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  color: #666666;
+}
+
+.footer_header {
+  display: flex;
+  height: 70px;
+  padding: 20px;
+  background-color: #fff;
+}
+.footer_header input[type=text] {
+  width: 200px;
+  height: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+}
+.footer_header button {
+  margin-left: 4px;
+  border: none;
+  height: 37px;
+  width: 100px;
+  color: #fff;
+  background-color: #aaaaaa;
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+.footer_header .footer_header_contact {
+  display: flex;
+  margin: 0px 100px;
+  color: #666666;
+}
+.footer_header .footer_header_contact .svg {
+  margin-top: 0px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  position: relative;
+  top: 10px;
+  right: 20px;
+}
+.footer_header .footer_header_contact .text .ventaTel {
+  color: #e6460d;
+}
+.footer_header .footer_header_contact p {
+  font-size: 18px;
+  font-weight: 100;
+  margin: 0px;
+}
+.footer_header .footer_header_contact span {
+  font-weight: bold;
+}
+.footer_header .icons a {
+  text-decoration: none;
+}
+.footer_header .icons a svg {
+  width: 30px;
+}
+
+.footer_main {
+  display: flex;
+}
+.footer_main div {
+  margin: 10px 40px;
+}
+.footer_main div h3 {
+  text-transform: uppercase;
+}
+.footer_main div ul {
+  list-style: none;
+  padding: 0;
+}
+.footer_main div ul li {
+  margin: 10px 0px;
+}
+.footer_main div ul li a {
+  text-decoration: none;
+  color: #666666;
+}
+.footer_main div.productos a {
+  text-decoration: none;
+  color: #666666;
+}
+.footer_main div.productos a#ventas-corp {
+  background-color: #e6460d;
+  color: #FFF;
+  padding: 10PX 25px;
+}
+.footer_main div.productos .certified {
+  margin: 20px 0;
+}
+
+.footer_locals {
+  display: flex;
+  margin-top: 0px;
+}
+.footer_locals .BZA-LOGO {
+  border-right: 1px solid #666666;
+}
+.footer_locals .BZA-LOGO a img {
+  width: 150px;
+}
+.footer_locals .sucursales-container {
+  display: flex;
+}
+.footer_locals .sucursales-container div {
+  margin: 0px 20px;
+}
+.footer_locals .sucursales-container div a img {
+  width: 150px;
+}
+
+.legal {
+  width: 70%;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
